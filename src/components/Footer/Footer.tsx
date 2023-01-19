@@ -55,7 +55,7 @@ const Footer = () => {
         <div className='CopyRight mx-auto'>
           <div className='row align-item-center'>
             <div className='col-6 text-start'>
-              <p>Copyright@2023 Shiv Corporation All Rights reserved</p>
+              <p>Copyright@2023 Param Fasteners All Rights reserved</p>
             </div>
             <div className='col-6 text-end'>
               <p>Developed by Multifly technologies</p>

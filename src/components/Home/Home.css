@@ -72,4 +72,24 @@ position: relative;
   margin: 5px auto;
 
 }
-/* end owl carousel */
+@media (max-width: 575.5px) {
+
+.banner-tag h1{
+  font-size: 17px;
+}
+.banner-tag img{
+  width: 165px;
+  margin-left: 12px;
+}
+.contact-form{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(25, 92, 136);
+}
+.contact-banner-img{
+  display: none;
+}
+}

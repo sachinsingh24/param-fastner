@@ -32,7 +32,12 @@ const nav_tab = () => {
                 placement='end'>
                 <Offcanvas.Header closeButton>
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                    shiv home
+                    <img
+                      src={logo}
+                      alt='param logo'
+                      className='ing-fluid'
+                      width='150px'
+                    />
                   </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body aria-label='Close'>
@@ -67,7 +72,7 @@ const nav_tab = () => {
                     </Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
-                <div className='text-end flex-grow-1'>
+                <div className='nav-contact'>
                   <h1>
                     <img
                       src={require('../../Assets/phone.png')}
