@@ -1,0 +1,75 @@
+/** @format */
+.banner-section {
+ position: relative;
+  z-index: 0;
+  opacity: 1;
+}
+.banner-img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-tag {
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  left: 0;
+  right: 50%;
+}
+.banner-tag{
+  text-align: left;
+}
+.banner-tag h1{
+  color: #fff;
+  margin-left:12px;
+  font-size: 65px;
+}
+.material{
+display: flex;
+flex-wrap: wrap;
+padding: 20px 0;
+}
+.material-1{
+width: 350px;
+margin:35px auto;
+border: 5px solid rgb(12, 50, 121);
+border-radius: 20px;
+
+}
+
+.contact-banner{
+position: relative;
+  z-index: 1;
+}
+.contact-form{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  right: 50%;
+  bottom: 20%;
+
+}
+.header-style{
+  color: #fff;
+}
+.Enquiry {
+  text-align: center;
+  /* background-color: cadetblue; */
+  max-width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.enquiry-form {
+  max-width: 75%;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.enquiry-form label {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(209, 204, 204);
+  margin: 5px auto;
+
+}
+/* end owl carousel */
