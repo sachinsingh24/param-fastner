@@ -46,8 +46,27 @@ const Footer = () => {
                 </p>
               </div>
               <div className='contact'>
-                <h3>CONTACT NUMBER : 9586489007 / 9638209447</h3>
+                <h3>
+                  CONTACT No : <a href='tel:+919586489007'>9586489007</a> /
+                  <a href='tel:+919638209447'> 9638209447</a>
+                </h3>
                 <h4>Email: paramfasteners77@gmail.com</h4>
+              </div>
+              <div className='whatsapp-quotes'>
+                <Link to=''>
+                  <div className='btn-wrap'>
+                    <img
+                      src={require('../../Assets/whatsapp-tag.png')}
+                      alt=''
+                      className='img-fluid'
+                      width='100px'
+                    />
+                    <div className='whatsapp-tag'>
+                      <h3>Click Here</h3>
+                      <p>Get Quotes on WhatsApp</p>
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

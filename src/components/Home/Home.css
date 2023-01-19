@@ -1,6 +1,6 @@
 /** @format */
 .banner-section {
- position: relative;
+  position: relative;
   z-index: 0;
   opacity: 1;
 }
@@ -16,40 +16,86 @@
   left: 0;
   right: 50%;
 }
-.banner-tag{
+.banner-tag {
   text-align: left;
 }
-.banner-tag h1{
+.banner-tag h1 {
   color: #fff;
-  margin-left:12px;
+  margin-left: 12px;
   font-size: 65px;
 }
-.material{
-display: flex;
-flex-wrap: wrap;
-padding: 20px 0;
+.material {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
 }
-.material-1{
-width: 350px;
-margin:35px auto;
-border: 5px solid rgb(12, 50, 121);
-border-radius: 20px;
-
+.material-1 {
+  width: 350px;
+  margin: 35px auto;
+  border: 5px solid rgb(12, 50, 121);
+  border-radius: 20px;
+}
+.view-more {
+  width: 200px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#btn {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  transition: 0.3s all ease;
+  position: relative;
+  margin: auto;
 }
 
-.contact-banner{
-position: relative;
+#btn:hover {
+  color: #fff;
+}
+
+#btn::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  z-index: -1;
+  background-color: #000;
+  width: 38px;
+  height: 38px;
+  border-radius: 80px;
+  transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#btn:hover::before {
+  width: 100%;
+}
+#btn svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+#btn svg path {
+  fill: #fff;
+}
+
+.contact-banner {
+  position: relative;
   z-index: 1;
 }
-.contact-form{
+.contact-form {
   position: absolute;
   top: 20%;
   left: 5%;
   right: 50%;
   bottom: 20%;
-
 }
-.header-style{
+.header-style {
   color: #fff;
 }
 .Enquiry {
@@ -70,26 +116,24 @@ position: relative;
   font-weight: 600;
   color: rgb(209, 204, 204);
   margin: 5px auto;
-
 }
 @media (max-width: 575.5px) {
-
-.banner-tag h1{
-  font-size: 17px;
-}
-.banner-tag img{
-  width: 165px;
-  margin-left: 12px;
-}
-.contact-form{
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(25, 92, 136);
-}
-.contact-banner-img{
-  display: none;
-}
+  .banner-tag h1 {
+    font-size: 17px;
+  }
+  .banner-tag img {
+    width: 165px;
+    margin-left: 12px;
+  }
+  .contact-form {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1a507d;
+  }
+  .contact-banner-img {
+    display: none;
+  }
 }

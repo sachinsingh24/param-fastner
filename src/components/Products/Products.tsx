@@ -3,7 +3,14 @@
 import React from 'react';
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <section>
+      <div>
+        {' '}
+        <img src='' alt='' />
+      </div>
+    </section>
+  );
 };
 
 export default Projects;

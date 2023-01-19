@@ -33,6 +33,38 @@ font-size: 35px;
 .Address p{
 font-size: 20px;
 }
+.contact h3 a{
+text-decoration: none;
+color: #fff;
+font-size: 30px;
+}
+.whatsapp-quotes{
+  width: 60%;
+margin: 20px auto;
+}
+.whatsapp-quotes a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #29a71a;
+  border-radius: 25px;
+}
+.whatsapp-tag{
+text-align: center;
+align-items: center;
+margin-left: 10px;
+line-height: 20px;
+}
+.whatsapp-tag p{
+  font-size: 20px;
+  margin: 0;
+
+}
 .CopyRight{
   /* position: absolute;
   bottom: 0; */
@@ -50,4 +82,9 @@ font-size: 20px;
 }
 .address p{
   margin: auto;
+}
+@media (max-width: 575.5px) {
+.whatsapp-quotes{
+  width: 100%;
+}
 }

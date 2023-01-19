@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import './Home.css';
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const form: any = useRef();
@@ -45,7 +46,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='container'>
+      <div className='container text-center'>
         <div className='material'>
           <div className='material-1'>
             <img
@@ -68,6 +69,21 @@ const Home = () => {
               className='img-fluid'
             />
           </div>
+        </div>
+        <div className='view-more'>
+          <Link to='/products' id='btn'>
+            {' '}
+            <svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'>
+              <g data-name='Layer 2' id='Layer_2'>
+                <path d='M19,26a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42L26.59,16l-8.3-8.29a1,1,0,0,1,1.42-1.42l9,9a1,1,0,0,1,0,1.42l-9,9A1,1,0,0,1,19,26Z' />
+                <path d='M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z' />
+              </g>
+              <g id='frame'>
+                <rect fill='none' height='32' width='32' />
+              </g>
+            </svg>
+            View More
+          </Link>
         </div>
       </div>
       <div className='container-fluid p-0'>
