@@ -6,8 +6,7 @@ const Projects = () => {
   return (
     <section>
       <div>
-        {' '}
-        <img src='' alt='' />
+        <h1>product pages is in progress</h1>
       </div>
     </section>
   );
