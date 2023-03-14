@@ -64,7 +64,7 @@ const nav_tab = () => {
                         Ongoing Projects
                       </NavDropdown.Item>
                     </NavDropdown> */}
-                    <Nav.Link as={Link} to='/Product' eventKey='3'>
+                    <Nav.Link as={Link} to='/Products' eventKey='3'>
                       Products
                     </Nav.Link>
                     <Nav.Link as={Link} to='/Contact_Us' eventKey='4'>

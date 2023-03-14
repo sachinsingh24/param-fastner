@@ -50,8 +50,8 @@ const Home = () => {
         <div className='material'>
           <div className='material-1'>
             <img
-              src={require('../../Assets/1.png')}
-              alt=''
+              src={require('../../Assets/logofastner.svg')}
+              alt='nut'
               className='img-fluid'
             />
           </div>
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
           <div className='material-1'>
             <img
-              src={require('../../Assets/3.png')}
+              src={require('../../Assets/Hex-nut.jpg')}
               alt=''
               className='img-fluid'
             />
@@ -90,7 +90,7 @@ const Home = () => {
         <div className='contact-banner'>
           <div className='contact-banner-img'>
             <img
-              src={require('../../Assets/Banner2.png')}
+              src={require('../../Assets/Banner2.jpg')}
               alt=''
               className='img-fluid'
             />

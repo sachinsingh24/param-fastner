@@ -11,6 +11,7 @@ import About from './components/About/About';
 import Contact from './components/Contact_Us/Contact';
 import Products from './components/Products/Products';
 import { Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='About' element={<About />} />
-        <Route path='Contact_Us' element={<Contact />} />
+        <Route path='Contact' element={<Contact />} />
         <Route path='Products' element={<Products />} />
       </Routes>
       <Footer />
