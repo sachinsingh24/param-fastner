@@ -11,10 +11,10 @@ const Projects = () => {
           <h1>Fasteners</h1>
           <p> All types of fasteners details given below</p>
         </div>
-        <div className='row my-3'>
+        <div className='row m-3 '>
           <div className='col-4 text-center'>
-            <div className='card' style={{ width: '25rem' }}>
-              <h5 className='card-title'>hex-nuts & Nylock Nut</h5>
+            <div className='card mx-3' style={{ width: '25rem' }}>
+              <h5 className='card-title p-3'>hex-nuts & Nylock Nut</h5>
               <img
                 src={require('../../Assets/hex-nuts & Nylock Nut.jpg')}
                 className='card-img-top'
@@ -48,10 +48,10 @@ const Projects = () => {
             </div>
           </div>
           <div className='col-4 text-center'>
-            <div className='card' style={{ width: '25rem' }}>
-              <h5 className='card-title'>hex-nuts & Nylock Nut</h5>
+            <div className='card mx-3' style={{ width: '25rem' }}>
+              <h5 className='card-title p-3'>square-nut</h5>
               <img
-                src={require('../../Assets/hex-nuts & Nylock Nut.jpg')}
+                src={require('../../Assets/square-nut.jpg')}
                 className='card-img-top'
                 alt=''
               />
@@ -83,10 +83,10 @@ const Projects = () => {
             </div>
           </div>
           <div className='col-4 text-center'>
-            <div className='card' style={{ width: '25rem' }}>
-              <h5 className='card-title'>hex-nuts & Nylock Nut</h5>
+            <div className='card mx-3' style={{ width: '25rem' }}>
+              <h5 className='card-title p-3'>locknut</h5>
               <img
-                src={require('../../Assets/hex-nuts & Nylock Nut.jpg')}
+                src={require('../../Assets/locknut.jpg')}
                 className='card-img-top'
                 alt=''
               />
