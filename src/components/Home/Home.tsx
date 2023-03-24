@@ -42,7 +42,7 @@ const Home = () => {
           </div>
           <div className='banner-tag'>
             <h1>Everything you need, Right here</h1>
-            <img src={require('../../Assets/Param Fastner Logo.png')} alt='' />
+            <img src={require('../../Assets/Param Fastner Logo.png')} alt='' width={'300px'} />
           </div>
         </div>
       </div>
@@ -50,24 +50,27 @@ const Home = () => {
         <div className='material'>
           <div className='material-1'>
             <img
-              src={require('../../Assets/logofastner.svg')}
+              src={require('../../Assets/Allen Button.png')}
               alt='nut'
               className='img-fluid'
             />
+            <h4>ALLEN BUTTON</h4>
           </div>
           <div className='material-1'>
             <img
-              src={require('../../Assets/2.png')}
+              src={require('../../Assets/Allen Cap.png')}
               alt=''
               className='img-fluid'
             />
+            <h4>ALLEN CAP</h4>
           </div>
           <div className='material-1'>
             <img
-              src={require('../../Assets/Hex-nut.jpg')}
-              alt=''
+              src={require('../../Assets/Hex-nut.png')}
+              alt='Hex-nut'
               className='img-fluid'
             />
+            <h4>HEX BOLT</h4>
           </div>
         </div>
         <div className='view-more'>

@@ -28,19 +28,36 @@
   display: flex;
   flex-wrap: wrap;
   padding: 20px 0;
+
 }
 .material-1 {
   width: 350px;
   margin: 35px auto;
-  border: 5px solid rgb(12, 50, 121);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 20px;
+  transition: all 0.5s ease-in-out;
 }
+.material-1 img{
+  border-radius: 20px;
+  width: 320px;
+}
+.material-1 h4{
+font-size: 20px;
+font-weight: 500;
+color: #1a507d;
+}
+
+.material-1:hover{
+  margin-top: 10px;
+}
+
 .view-more {
   width: 200px;
   height: auto;
   margin: auto;
   margin-bottom: 20px;
 }
+
 #btn {
   text-decoration: none;
   cursor: pointer;

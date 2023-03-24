@@ -1,0 +1,25 @@
+.About-head{
+display: flex;
+flex-direction: row;
+margin: 25px auto;
+padding: 20px 0;
+}
+.About-head img{
+    text-align: center;
+    margin: auto;
+}
+.About-head h3{
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.about-tag{
+    text-align: left;
+    margin: 25px auto;
+    padding: 20px 0;
+}
+.about-tag h3{}
+.about-tag h4{font-weight: 400;
+
+}

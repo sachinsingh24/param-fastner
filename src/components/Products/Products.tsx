@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Projects.css';
+import { productdata } from './data';
 
 const Projects = () => {
   return (
@@ -11,110 +12,27 @@ const Projects = () => {
           <h1>Fasteners</h1>
           <p> All types of fasteners details given below</p>
         </div>
-        <div className='row m-3 '>
-          <div className='col-4 text-center'>
-            <div className='card mx-3' style={{ width: '25rem' }}>
-              <h5 className='card-title p-3'>hex-nuts & Nylock Nut</h5>
-              <img
-                src={require('../../Assets/hex-nuts & Nylock Nut.jpg')}
-                className='card-img-top'
-                alt=''
-              />
-              <div className='card-body'>
-                <div className='row'>
-                  <div className='col'></div>
-                  <div className='col'>METRIC</div>
-                  <div className='col'>INCH</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Threads</div>
-                  <div className='col'>MM</div>
-                  <div className='col'>BSW</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Diameter</div>
-                  <div className='col'>3 to 20</div>
-                  <div className='col'>3/16 to 3/4</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Length </div>
-                  <div className='col'>-</div>
-                  <div className='col'>-</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Material </div>
-                  <div className='col'>-</div>
-                  <div className='col'>
-                    S.S., M.S., Brass, High Tensile, 2H,
+        <div className='product-body'>
+          <div className='row'>
+            {productdata.map((item, index) => {
+              return (
+                <div className='col-12 col-md-3' key={index}>
+                  <div className='product-content'>
+                    <img
+                      src={item.img}
+                      alt='Allen Button'
+                      width={'250px'}
+                      className='img-fluid'
+                    />
+                    <h4>{item.text}</h4>
                   </div>
                 </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
-          <div className='col-4 text-center'>
-            <div className='card mx-3' style={{ width: '25rem' }}>
-              <h5 className='card-title p-3'>square-nut</h5>
-              <img
-                src={require('../../Assets/square-nut.jpg')}
-                className='card-img-top'
-                alt=''
-              />
-              <div className='card-body'>
-                <div className='row'>
-                  <div className='col'></div>
-                  <div className='col'>METRIC</div>
-                  <div className='col'>INCH</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Threads</div>
-                  <div className='col'>MM</div>
-                  <div className='col'>BSW</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Diameter</div>
-                  <div className='col'>3 to 20</div>
-                  <div className='col'>3/16 to 3/4</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Length </div>
-                  <div className='col'>-</div>
-                  <div className='col'>-</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Material </div>
-                  <div className='col'>-</div>
-                  <div className='col'>
-                    S.S., M.S., Brass, High Tensile, 2H,
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='col-4 text-center'>
-            <div className='card mx-3' style={{ width: '25rem' }}>
-              <h5 className='card-title p-3'>locknut</h5>
-              <img
-                src={require('../../Assets/locknut.jpg')}
-                className='card-img-top'
-                alt=''
-              />
-              <div className='card-body'>
-                <div className='row'>
-                  <div className='col'></div>
-                  <div className='col'>METRIC</div>
-                  <div className='col'>INCH</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Threads</div>
-                  <div className='col'>MM</div>
-                  <div className='col'>BSW</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Diameter</div>
-                  <div className='col'>3 to 20</div>
-                  <div className='col'>3/16 to 3/4</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Length </div>
-                  <div className='col'>-</div>
-                  <div className='col'>-</div>
-                  <div className='w-100'></div>
-                  <div className='col'>Material </div>
-                  <div className='col'>-</div>
-                  <div className='col'>
-                    S.S., M.S., Brass, High Tensile, 2H,
-                  </div>
-                </div>
-              </div>
+          <div className='product-description'>
+            <div className='row'>
+
             </div>
           </div>
         </div>

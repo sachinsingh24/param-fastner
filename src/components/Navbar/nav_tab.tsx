@@ -67,7 +67,7 @@ const nav_tab = () => {
                     <Nav.Link as={Link} to='/Products' eventKey='3'>
                       Products
                     </Nav.Link>
-                    <Nav.Link as={Link} to='/Contact_Us' eventKey='4'>
+                    <Nav.Link as={Link} to='/Contact' eventKey='4'>
                       Contact Us
                     </Nav.Link>
                   </Nav>
