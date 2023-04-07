@@ -46,7 +46,7 @@ const nav_tab = () => {
                       Home
                     </Nav.Link>
                     <Nav.Link as={Link} to='/About' eventKey='2'>
-                      About-Us
+                      About Us
                     </Nav.Link>
                     {/* <NavDropdown
                       title='Projects'

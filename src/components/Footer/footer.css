@@ -1,52 +1,118 @@
-.footer{
+/** @format */
+
+.footer {
   background-color: rgb(20, 20, 48);
 }
 
-.wrapper{
+.wrapper {
   padding: 20px;
 }
-.footer-logo{
+.footer-logo {
   text-align: start;
 }
 
-.footer-logo img{
+.footer-logo img {
   width: 250px;
 }
-.menu-links ul li{
+.menu-links ul li {
   list-style: none;
   font-size: 25px;
   margin-bottom: 5px;
-  text-align:left
+  text-align: left;
 }
-.menu-links ul li a{
+.menu-links ul li a {
   text-decoration: none;
   color: #fff;
 }
-.col2-wrapper{
+.col2-wrapper {
   color: #fff;
-text-align: left;
-margin: 20px;
+  text-align: left;
+  margin: 20px;
 }
-.Address h2{
-font-size: 35px;
+.Address h2 {
+  font-size: 35px;
 }
-.Address p{
-font-size: 20px;
+.Address p {
+  font-size: 20px;
 }
-.contact h3 a{
-text-decoration: none;
-color: #fff;
-font-size: 30px;
+.contact h3 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
 }
-.whatsapp-quotes{
+.whatsapp-quotes {
   width: 60%;
-margin: 20px auto;
+  margin: 20px auto;
 }
-.whatsapp-quotes a{
+.whatsapp-quotes a {
   text-decoration: none;
   color: #fff;
 }
-.btn-wrap{
+.download-link {
+  margin: auto;
+}
+
+/* <!-- HTML !-->
+<button class="button-64" role="button"><span class="text">Button 64</span></button> */
+
+/* CSS */
+.whatsapp-quotes .download-btn {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  /* min-width: 140px; */
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.whatsapp-quotes .download-btn :active,
+.whatsapp-quotes .download-btn:hover {
+  outline: 0;
+}
+
+.whatsapp-quotes .download-btn span {
+  /* background-color: rgb(20, 20, 48); */
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.download-btn:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) and (max-width: 1250px) {
+  .whatsapp-quotes .download-btn {
+    font-size: 24px;
+    /* min-width: 196px; */
+  }
+  .whatsapp-quotes {
+    width: 100%;
+    flex-direction: column;
+  }
+  .download-link {
+    margin-bottom: 15px;
+  }
+}
+
+.btn-wrap {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -54,37 +120,40 @@ margin: 20px auto;
   background-color: #29a71a;
   border-radius: 25px;
 }
-.whatsapp-tag{
-text-align: center;
-align-items: center;
-margin-left: 10px;
-line-height: 20px;
+.whatsapp-tag {
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+  line-height: 20px;
 }
-.whatsapp-tag p{
+.whatsapp-tag p {
   font-size: 20px;
   margin: 0;
-
 }
-.CopyRight{
+.CopyRight {
   /* position: absolute;
   bottom: 0; */
   width: 100%;
-  background-color:blueviolet;
+  background-color: blueviolet;
   color: #fff;
 }
-.CopyRight .row{
+.CopyRight .row {
   padding: 0;
   margin: 0;
 }
-.CopyRight p{
+.CopyRight p {
   margin: auto;
   padding: 7px;
 }
-.address p{
+.address p {
   margin: auto;
 }
 @media (max-width: 575.5px) {
-.whatsapp-quotes{
-  width: 100%;
-}
+  .whatsapp-quotes {
+    width: 100%;
+    flex-direction: column;
+  }
+  .download-link {
+    margin-bottom: 15px;
+  }
 }

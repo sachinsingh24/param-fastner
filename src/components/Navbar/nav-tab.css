@@ -16,6 +16,9 @@
 .nav-contact{
   text-align: end;
 }
+.nav-contact h1{
+  color: #1a507d;
+}
 
 .navbar-brand img{
 width: 250px;

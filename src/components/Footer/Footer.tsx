@@ -24,7 +24,7 @@ const Footer = () => {
                     <Link to='/'> Home</Link>
                   </li>
                   <li>
-                    <Link to='/About'>About-Us</Link>
+                    <Link to='/About'>About Us</Link>
                   </li>
                   <li>
                     <Link to='/Products'>Products</Link>
@@ -52,8 +52,22 @@ const Footer = () => {
                 </h3>
                 <h4>Email: paramfasteners77@gmail.com</h4>
               </div>
-              <div className='whatsapp-quotes'>
-                <Link to=''>
+
+              <div className='whatsapp-quotes d-flex w-100'>
+                <div className='download-link'>
+                  <a
+                    href={require('../../Assets/Param Broucher.pdf')}
+                    download='Param Fastener'
+                    target='_blank'
+                    rel='noreferrer'
+                    className=''>
+                    <button className='download-btn'>
+                      {' '}
+                      <span className='text'>Download Brochure</span>
+                    </button>
+                  </a>
+                </div>
+                <a href='https://wa.me/9638209447?text=Looking%20for%20the%20best%20value%20in%20fasteners%3F%20Request%20a%20quote%20from%20us%20now'>
                   <div className='btn-wrap'>
                     <img
                       src={require('../../Assets/whatsapp-tag.png')}
@@ -66,7 +80,7 @@ const Footer = () => {
                       <p>Get Quotes on WhatsApp</p>
                     </div>
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ const Projects = () => {
           <div className='row'>
             {productdata.map((item, index) => {
               return (
-                <div className='col-12 col-md-3' key={index}>
+                <div className='col-12 col-sm-6 col-md-4' key={index}>
                   <div className='product-content'>
                     <img
                       src={item.img}
@@ -32,7 +32,11 @@ const Projects = () => {
           </div>
           <div className='product-description'>
             <div className='row'>
-
+              <div className='col-12 col-md-6'>
+                <div className='SRNo'>Sr.No</div>
+                <div className='length'>length</div>
+                <div className='size'>size</div>
+              </div>
             </div>
           </div>
         </div>
