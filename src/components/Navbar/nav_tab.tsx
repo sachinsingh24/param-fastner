@@ -4,7 +4,7 @@ import React from 'react';
 
 import { Offcanvas, Navbar, Nav, Container } from 'react-bootstrap';
 import './nav-tab.css';
-import logo from '../../Assets/Param Fastner Logo.png';
+import logo from '../../Assets/mainLogo.png';
 import { Link } from 'react-router-dom';
 
 const nav_tab = () => {

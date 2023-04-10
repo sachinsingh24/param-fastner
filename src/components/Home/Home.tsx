@@ -35,14 +35,20 @@ const Home = () => {
         <div className='banner-section'>
           <div className='banner-img'>
             <img
-              src={require('../../Assets/Banner1.png')}
+              src={require('../../Assets/Front-Banner-Param.jpg')}
               className='img-fluid'
               alt=''
             />
           </div>
           <div className='banner-tag'>
-            <h1>Everything you need, Right here</h1>
-            <img src={require('../../Assets/Param Fastner Logo.png')} alt='' width={'300px'} />
+            <h1 style={{ color: '#1a507d' }}>
+              Everything you need, Right here
+            </h1>
+            <img
+              src={require('../../Assets/Param Fastner Logo.png')}
+              alt=''
+              width={'300px'}
+            />
           </div>
         </div>
       </div>

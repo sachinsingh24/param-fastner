@@ -12,7 +12,7 @@
 }
 
 .footer-logo img {
-  width: 250px;
+  width: 200px;
 }
 .menu-links ul li {
   list-style: none;
@@ -143,7 +143,8 @@
 }
 .CopyRight p {
   margin: auto;
-  padding: 7px;
+  font-size: 15px;
+  padding: 2px;
 }
 .address p {
   margin: auto;

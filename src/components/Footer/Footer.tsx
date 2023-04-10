@@ -13,9 +13,9 @@ const Footer = () => {
             <div className='wrapper'>
               <div className='footer-logo'>
                 <img
-                  src={require('../../Assets/Param Fastner Logo.png')}
+                  src={require('../../Assets/mainLogo.png')}
                   alt=''
-                  className='img-fluid'
+                  className='img-fluid mb-2'
                 />
               </div>
               <div className='menu-links'>
