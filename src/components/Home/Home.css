@@ -18,10 +18,10 @@
 }
 .banner-tag {
   text-align: left;
+  margin-left: 12px;
 }
 .banner-tag h1 {
   color: #fff;
-  margin-left: 12px;
   font-size: 65px;
   margin-bottom: 45px;
 }
@@ -136,12 +136,14 @@ color: #1a507d;
   margin: 5px auto;
 }
 @media (max-width: 575.5px) {
+
   .banner-tag h1 {
     font-size: 17px;
+    margin-bottom: 5px;
   }
   .banner-tag img {
-    width: 165px;
-    margin-left: 12px;
+    width: 130px;
+
   }
   .contact-form {
     position: relative;

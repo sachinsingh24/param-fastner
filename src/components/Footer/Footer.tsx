@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='CopyRight mx-auto'>
-          <div className='row align-item-center'>
+          <div className='row align-items-center'>
             <div className='col-6 text-start'>
               <p>Copyright@2023 Param Fasteners All Rights reserved</p>
             </div>

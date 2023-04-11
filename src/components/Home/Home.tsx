@@ -35,7 +35,7 @@ const Home = () => {
         <div className='banner-section'>
           <div className='banner-img'>
             <img
-              src={require('../../Assets/Front-Banner-Param.jpg')}
+              src={require('../../Assets/FRONT BANNER png-min.jpg')}
               className='img-fluid'
               alt=''
             />

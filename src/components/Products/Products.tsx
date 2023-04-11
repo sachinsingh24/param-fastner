@@ -29,8 +29,41 @@ const Projects = () => {
                 </div>
               );
             })}
+            <div className='col-12 col-sm-12 col-md-8'>
+              <div className='ProductBrand'>
+                <img
+                  src={require('../../Assets/productBrand/DHJ.png')}
+                  alt='DHJ'
+                  className='img-fluid'
+                />
+                <img
+                  src={require('../../Assets/productBrand/GMF.png')}
+                  alt='DHJ'
+                  className='img-fluid'
+                />
+                <img
+                  src={require('../../Assets/productBrand/KUN.png')}
+                  alt='DHJ'
+                  className='img-fluid'
+                />
+                <img
+                  src={require('../../Assets/productBrand/RAAJ.png')}
+                  alt='DHJ'
+                />
+                <img
+                  src={require('../../Assets/productBrand/TVS.png')}
+                  alt='DHJ'
+                  className='img-fluid'
+                />
+                <img
+                  src={require('../../Assets/productBrand/Unbrako.png')}
+                  alt='DHJ'
+                  className='img-fluid'
+                />
+              </div>
+            </div>
           </div>
-          <div className='product-description'>
+          {/* <div className='product-description'>
             <div className='row'>
               <div className='col-12 col-md-6'>
                 <div className='SRNo'>Sr.No</div>
@@ -38,7 +71,7 @@ const Projects = () => {
                 <div className='size'>size</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
