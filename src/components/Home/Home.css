@@ -121,7 +121,7 @@ color: #1a507d;
   /* background-color: cadetblue; */
   max-width: 100%;
   margin: auto;
-  margin-top: 20px;
+
 }
 .enquiry-form {
   max-width: 75%;
@@ -155,5 +155,8 @@ color: #1a507d;
   }
   .contact-banner-img {
     display: none;
+  }
+  .Enquiry{
+    padding-top: 30px;
   }
 }

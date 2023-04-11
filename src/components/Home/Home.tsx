@@ -105,7 +105,7 @@ const Home = () => {
             />
           </div>
           <div className='contact-form'>
-            <div className='Enquiry pb-3 pt-3'>
+            <div className='Enquiry'>
               <h2 className='header-style'>CONTACT US : </h2>
               <div className='enquiry-form'>
                 <form id='contactForm' ref={form} onSubmit={handleSubmit}>
