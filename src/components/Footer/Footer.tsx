@@ -41,7 +41,7 @@ const Footer = () => {
               <div className='Address'>
                 <h2>CORPORATE OFFICE</h2>
                 <p>
-                  A-37, Shivam Estate, Ujala Circler, S.G. Highway Rd, Sarkhej,
+                  A-37, Shivam Estate, Ujala Circle, S.G. Highway Rd, Sarkhej,
                   Ahmedabad,Gujarat-380010.
                 </p>
               </div>

@@ -19,7 +19,7 @@ const Contact = () => {
             <div className='contact-head-tag'>
               <h1>Address</h1>
               <h4>
-                A-37, Shivam Estate, Ujala Circler, S.G. Highway Rd, Sarkhej,
+                A-37, Shivam Estate, Ujala Circle, S.G. Highway Rd, Sarkhej,
                 Ahmedabad,Gujarat-380010.
               </h4>
               <h3>contact no : 9586489007 / 9638209447</h3>
